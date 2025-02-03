@@ -1,27 +1,29 @@
 {
-  "name": "template",
+  "name": "calculator",
   "version": "1.0.0",
-  "description": "Шаблон для JavaScript проектов",
+  "description": "Копия калькулятора Windows 11 на JavaScript",
   "author": "Rinat Khusnutdinov <rfkhusnutdinov@yandex.ru>",
-  "homepage": "https://github.com/rfkhusnutdinov/template#readme",
+  "homepage": "https://github.com/rfkhusnutdinov/calculator#readme",
   "bugs": {
-    "url": "https://github.com/rfkhusnutdinov/template/issues"
+    "url": "https://github.com/rfkhusnutdinov/calculator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rfkhusnutdinov/template.git"
+    "url": "https://github.com/rfkhusnutdinov/calculator.git"
   },
   "keywords": [
-    "starter",
+    "windows",
+    "microsoft",
+    "app",
     "javascript",
-    "template"
+    "calculator"
   ],
   "files": [
     "dist",
     "src"
   ],
-  "main": "./dust/js/index.js",
-  "module": "./dist/js/index.esm.js",
+  "main": "./dust/js/calculator.js",
+  "module": "./dist/js/calculator.esm.js",
   "license": "MIT",
   "babel": {
     "presets": [
